@@ -15,7 +15,7 @@ I have about **9 years of work experience in digital IC design**. My major respo
 
 ## Work Experience
 
-### AVALINK - Hsinchu, Taiwan
+### Availink - Hsinchu, Taiwan
 **Senior Digital IC Engineer** | May 2019 – Oct. 2025
 
 <details close>
