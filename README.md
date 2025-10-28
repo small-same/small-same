@@ -29,10 +29,10 @@ I have about **9 years of work experience in digital IC design**. My major respo
     * [TZMA](https://github.com/small-same/small-same/blob/main/WorkSpace/TZMA/TZMA.md)
       * Designed Trust Zone Memory Access IP, integrating with crypto engine to secure DRAM access, ensuring robust system security.
       * Developed Register Control for Secure/Non-Secure Master with Trust-Zone Access, improving system partition security.
-* **Display Function Verification**
+* [DISPLAY Verification](https://github.com/small-same/small-same/blob/main/WorkSpace/VERI/VERI.md)
     * Developed comprehensive verification test plans and patterns, No functional fault happens at first cut tapeout.
     * Response FPGA emulation to validate display functionalities and accelerate pre-silicon debugging.
-* **FPGA Implementation & Integration**
+* [FPGA Implementation & Integration](https://github.com/small-same/small-same/blob/main/WorkSpace/FPGA/FPGA.md)
     * Implemention Flow on Xilinx V9 with VIVADO, meeting stringent performance targets.
     * Gained extensive integration experience with VIVADO IPs, including Serdes, MIG DDR4, and HDMI Tx PHY.
 * **Project Experience with Tapout IC**
