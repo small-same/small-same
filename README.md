@@ -26,7 +26,7 @@ I have about **9 years of work experience in digital IC design**. My major respo
       * Designed and optimized Data Fetching from DRAM IP, enhancing data throughput.
       * Developed Rotated SRAM design, achieving 50% memory usage saving, compared ping-pong buffering, through efficient block-to-linear ordering swap.
       * Implemented Display Cropping Functions with the integration of frame buffer decompression, achieving target performance.
-    * **TZMA** 
+    * [TZMA](https://github.com/small-same/small-same/blob/main/WorkSpace/TZMA/TZMA.md)
       * Designed Trust Zone Memory Access IP, integrating with crypto engine to secure DRAM access, ensuring robust system security.
       * Developed Register Control for Secure/Non-Secure Master with Trust-Zone Access, improving system partition security.
 * **Display Function Verification**
