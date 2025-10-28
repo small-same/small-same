@@ -14,22 +14,29 @@
 
 * We note that we can generated with only-phy interface to integrated in-house SDCTRL. Therefore, 
 
+* PG150
+
 #### HDMI Integration Jobs
 
 #### HDMI PHY + In-house HDMI Tx integration
 
 * The original HDMI interface connects to a _________ which the connected ways is GPIO, and it can only runs at 27MHz, which means if the resolution is higher than 480P, it can not be normally verified with a standard speed, which can not be achieve the real situation. 
 
-* In this job, The HDMI PHY has been integrated into you SOC system, the IBERT tests are both PASS.
+* PG230
+
+* In this job, the first is to port the example design of PHY, and be integrated into you SOC system, the IBERT tests are both PASS.
 The whole experimental environment are showns as follows
 
 * V9
 The FPGA test board are based on XCVU9P-L2FSGD2104E (https://talentpros.com.tw/tps-8-series-lite)
 * HDMI daughter board
-https://www.mouser.com/new/texas-instruments/ti-tdp158rsbevm-evaluation-module/
+https://www.ti.com/tool/TDP158RSBEVM
 
 
 * HDMI Analyzer
+
+https://www.teledynelecroy.com/protocolanalyzer/quantumdata980.aspx
+
 
 Finally, the HDMI Tx can runs at 74.25MHz, compared with the original speed with 27MHz, which has extreamly improvement.
 Totally, the whole system can run at 74.25MHz with 720P60. The following images shows the results, the test patterns comes from the internal BIST mode in in-house HDMI Tx. which shows the iamge can be normally captured with correct DTG timing.

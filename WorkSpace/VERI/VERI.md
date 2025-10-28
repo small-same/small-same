@@ -15,4 +15,3 @@
 * The third picture displays the register setting in a .h file, it will packed into a systemverilog task like, for example , the first line will writen as `WREG(80,1,32'd0); \\DIS_X_START`. Accroding the the combinations of each header files, it will automatically generates an accessable systemverilog.
 
 <img src="IP_register.png" alt="sram_pool_example" width="750">
-![alt text](image.png)
