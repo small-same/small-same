@@ -37,8 +37,8 @@ I have about **9 years of work experience in digital IC design**. My major respo
     * Gained extensive integration experience with VIVADO IPs, including Serdes, MIG DDR4, and HDMI Tx PHY.
 * **Project Experience with Tapout IC**
     * Contributed to the successful tape-out of SFH980 – a 4K setup-box IC with integrated In-house FBD (SMIC 40nm).
-    * Involved in SFH821 – a 2K setup-box IC with 10-bit Coder (SMIC 40nm).
-    * Participated in SFH826 – a 2K setup-box IC, leading the effort to fix critical issues from SFH821 (SMIC 40nm).
+    * SFH821 – a 2K setup-box IC with 10-bit Coder and DISPLAY (SMIC 40nm).
+    * SFH826 – a 2K setup-box IC, leading the effort to fix critical issues from SFH821 (SMIC 40nm).
 
 
 </details>
@@ -58,7 +58,7 @@ I have about **9 years of work experience in digital IC design**. My major respo
     * Conducted in-depth clock/data path analysis to identify and resolve clock tree balance issues, ensuring timing closure.
     * Buffer/double-Inverter usage calculation, optimizing gate-level netlist quality.
     * Summarized timing closure status for MRMC (TMS/WMS), providing critical insights for tape-out decisions.
-* **Tape-out Project Contribution**: Contributed to the successful tape-out of a **Cortex-M3 + Integrated BLE SoC** on **UMC 28nm** process technology.
+* **Tape-out Project Contribution**: Contributed verification and ingegration to the successful tape-out of a **Cortex-M3 + Integrated BLE SoC** on **UMC 28nm** process technology.
 
 </details>   
 
@@ -78,7 +78,7 @@ I have about **9 years of work experience in digital IC design**. My major respo
     * Executed **Logic Equivalency Checking (LEC)** for entire chip designs (RTL to post-layout netlist) to verify design equivalence.
     * Performed **Manual Functional ECOs**
 
-* **Tape-out Project Contribution**: Played a key role in the tape-out of the **Panther WIFI SOC** (fabricated on **SMIC 40nm** process technology).
+* **Tape-out Project Contribution**: Contributed verification, front-end flow and ECOs in the tape-out of the **Panther WIFI SOC** (fabricated on **SMIC 40nm** process technology).
 
 </details>   
 
