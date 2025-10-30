@@ -85,6 +85,17 @@ I have about **9 years of work experience in digital IC design**. My major respo
 
 </details>   
 
+### Ice-Tron Electronic	Kaohsiung, Taiwan
+**Software Engineer** |	Apr. 2015 – Mar. 2016
+
+<details close>
+  <summary>Details</summary>
+
+* Firmware development based on Keil-C for STM-32 series MCU. 
+* PC-based software development using C# for OBD application.
+
+</details>   
+
 ---
 
 ## Skills
