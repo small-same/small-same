@@ -35,6 +35,9 @@ I have about **9 years of work experience in digital IC design**. My major respo
 * [FPGA Implementation & Integration](https://github.com/small-same/small-same/blob/main/WorkSpace/FPGA/FPGA.md)
     * Implemention Flow on Xilinx V9 with VIVADO, meeting stringent performance targets.
     * Gained extensive integration experience with VIVADO IPs, including Serdes, MIG DDR4, and HDMI Tx PHY.
+* Validation Jobs for Tapout ICs
+   * DISPLAY Functional Verficiation
+   * HDMI PHY Setting for 4K
 * **Project Experience with Tapout IC**
     * Contributed to the successful tape-out of SFH980 – a 4K setup-box IC with integrated In-house FBD (SMIC 40nm).
     * SFH821 – a 2K setup-box IC with 10-bit Coder and DISPLAY (SMIC 40nm).
