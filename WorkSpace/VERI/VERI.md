@@ -31,7 +31,6 @@ INIT_FILE2="DDFCH_720x480_CRMA.hex"
 
 * For the resgister setting, it will seperate head files for different kinds of patterns or Sub IPs in DISPLAY, The first picture shows the pattern list, for example, DDFCH_480P_2D is used to test the 2D fetching (a In-house storing format in DRAM for reduce the precharge command, and enhance the data reading peroformace, this is only for video playing), for 1080P60. This will setups the image in DRAM and the Capture timing from DTG (this should add a link to explain the DTG)
 
->>>>>>> cac36286d803b21d2ce3ed92c4e35c74bdb984c9
 <p align="center">
 <img src="pattern_list.png" alt="sram_pool_example" width="750">
 </p>
