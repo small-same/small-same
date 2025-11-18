@@ -18,7 +18,7 @@
 
 ##### MIG DDR4 PHY integration
 
-* The plan was to generate PHY-only IPs and integrate them with the in-house SDCTRL. This approach provided three distinct connection interfaces. Given that the DDR4 interface cannot directly connect to the SDCTRL, the integration focused on establishing the connection via the MIG's [USER interface, PG150](https://docs.amd.com/r/en-US/pg150-ultrascale-memory-ip/User-Interface?tocId=kLdS~zIRXPqmOCWQcjY~7wfrom). This project was incomplete upon my departure.
+* The plan was to generate PHY-only IPs and integrate them with the in-house SDCTRL. This approach provided three distinct connection interfaces. Given that the DDR4 interface cannot directly connect to the SDCTRL, the integration focused on establishing the connection via the MIG's [USER interface, PG150](https://docs.amd.com/r/en-US/pg150-ultrascale-memory-ip/User-Interface?tocId=kLdS~zIRXPqmOCWQcjY~7wfrom). The specification can be list [here](). This project was incomplete upon my departure.
 
 #### HDMI Integration Jobs
 
