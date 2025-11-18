@@ -1,7 +1,7 @@
 
-# Design_Specification_for_FUI_Wrapper
+# Introduction_for_FUI_Wrapper
 
-## 1. Introduction `Jerry`
+## 1. Introduction
 
 This document presents the design specification for integrating the In-House SDCTRL with the MIG DDR4 PHY IP. The In-House SDCTRL, which supports only DDR2/3 protocols under DFI 2.1, cannot be directly used with the phy interface in MIG DDR4 PHY IP. The design challenges we face are listed below:
 
