@@ -26,8 +26,8 @@ FPGA 晶片設計實務
 
 ## Resource
 
-* [UG893](https://docs.amd.com/r/2022.1-English/ug893-vivado-ide/Using-the-Vivado-IDE)
-* [UG910](https://docs.amd.com/r/en-US/ug910-vivado-getting-started/Vivado-Design-Suite-Overview)
-* [UG903](https://docs.amd.com/r/en-US/ug903-vivado-using-constraints)
-* [UG906](https://docs.amd.com/r/en-US/ug906-vivado-design-analysis/Using-the-Design-Runs-Window)
-* [UG953](https://docs.amd.com/r/en-US/ug953-vivado-7series-libraries/Introduction)
+* UG893 - https://docs.amd.com/r/2022.1-English/ug893-vivado-ide/Using-the-Vivado-IDE
+* UG910 - https://docs.amd.com/r/en-US/ug910-vivado-getting-started/Vivado-Design-Suite-Overview
+* UG903 - https://docs.amd.com/r/en-US/ug903-vivado-using-constraints
+* UG906 - https://docs.amd.com/r/en-US/ug906-vivado-design-analysis/Using-the-Design-Runs-Window
+* UG953 - https://docs.amd.com/r/en-US/ug953-vivado-7series-libraries/Introduction
