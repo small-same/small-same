@@ -10,6 +10,7 @@
    * Gives the correct test image which stored in DRAM
    * Register settings for DISPLAY features.
 
+```
 [GLOBALSETTING]
 
 [480P60]
@@ -26,6 +27,7 @@ HDMI_CLK=148.5
 INIT_FILE1="DDFCH_720x480_LUMA.hex"
 INIT_FILE2="DDFCH_720x480_CRMA.hex"
 ```
+
 * The aboved three items will be setuped in an `.ini` files, likes windows configure file.
 
 
