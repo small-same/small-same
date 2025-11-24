@@ -52,16 +52,16 @@ I have about **9 years of work experience in digital IC design**. My major respo
 <details close>
   <summary>Details</summary>
 
-* **Functional Verification (Keil-C based)**: Functional verification for critical IP blocks including **Bus matrix**, **Test mode**, **DMA function**, and **in-house MBIST mode**.
-* **RTL Integration**: Successfully integrated **BLE IP with specific test modes** into larger SoC designs, ensuring seamless functionality and adherence to specifications.
-* **Front-End Flow Ownership**: Performed **Logic Equivalency Checking (LEC)** for entire chips, comparing R2R, R2G, G2G to guarantee design integrity.
+* **Functional Verification (Keil-C based)**: Functional verification for critical IP blocks for **DMA function**, and **in-house MBIST mode**.
+* **RTL Integration**: **BLE IP with test modes**.
+* **Front-End Flow Ownership**: Response LEC flow for SOC, including R2R, R2G, G2G.
 * **Functional ECO Execution**: Has experience for Functional ECOs. 
 * Script writing for **Front-end Flow Development**
-    * Developed Perl/Tcl scripts for automated PrimeTime information extraction and analysis.
+    * Perl/Tcl scripts to extract PrimeTime information and analysis.
     * Conducted in-depth clock/data path analysis to identify and resolve clock tree balance issues, ensuring timing closure.
-    * Buffer/double-Inverter usage calculation, optimizing gate-level netlist quality.
-    * Summarized timing closure status for MRMC (TMS/WMS), providing critical insights for tape-out decisions.
-* **Tape-out Project Contribution**: Contributed verification and ingegration to the successful tape-out of a **Cortex-M3 + Integrated BLE SoC** on **UMC 28nm** process technology.
+    * Buffer/double-Inverter usage calculation for CTS quality.
+    * Summarized timing closure status for MRMC (TMS/WMS), for timing fixing information for back-end decisions.
+* **Tape-out Project**: Tape-out of a **Cortex-M3 + Integrated BLE SoC** on **UMC 28nm** process technology.
 
 </details>   
 
@@ -81,7 +81,7 @@ I have about **9 years of work experience in digital IC design**. My major respo
     * Executed **Logic Equivalency Checking (LEC)** for entire chip designs (RTL to post-layout netlist) to verify design equivalence.
     * Performed **Manual Functional ECOs**
 
-* **Tape-out Project Contribution**: Contributed verification, front-end flow and ECOs in the tape-out of the **Panther WIFI SOC** (fabricated on **SMIC 40nm** process technology).
+* **Tape-out Project**: Contributed verification, front-end flow and ECOs in the tape-out of the **Panther WIFI SOC** (fabricated on **SMIC 40nm** process technology).
 
 </details>   
 
