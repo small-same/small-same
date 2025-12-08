@@ -28,14 +28,12 @@
 
 * The solution involved modifying the original HDMI ports to connect via the HDMI PHY IP (PG230).
 
-* The project's next phase involved porting the PHY example design and integrating it into the SOC system. IBERT tests were successfully passed. Leveraging the full test environment (including an HDMI Redriver and Analyzer), the final HDMI Tx achieved a significant speed increase to 74.25 MHz, a massive improvement over the initial 27 MHz. This enabled the entire system to run reliably at 74.25 MHz, supporting 720P60/1080P30 resolution. Internal BIST (Built-In Self-Test) patterns from the in-house HDMI Tx confirmed that the image was captured correctly with accurate DTG timing.
+* The project's next phase involved porting the PHY example design and integrating it into the SOC system. IBERT tests were successfully passed. Leveraging the full test environment (including an HDMI Redriver and Analyzer), the final HDMI Tx achieved a significant speed increase to 74.25 MHz, a massive improvement over the initial 27 MHz. This enabled the entire system to run reliably at 74.25 MHz, supporting 720P60/1080P30 resolution. Internal BIST (Built-In Self-Test) patterns from the in-house HDMI Tx confirmed that the image was captured correctly with accurate DTG timing. The used [HDMI Redriver](https://www.ti.com/tool/TDP158RSBEVM) and [HDMI Analyzer](https://www.teledynelecroy.com/protocolanalyzer/quantumdata980.aspx) is here.
 
 
 <p align="center">
 <img src="env.png" alt="RESULT" width="350">
-
-* [HDMI Redriver](https://www.ti.com/tool/TDP158RSBEVM)
-
-* [HDMI Analyzer](https://www.teledynelecroy.com/protocolanalyzer/quantumdata980.aspx)
-
+</p>
+<p align="center">
 <img src="brief_result.jpg" alt="RESULT" width="750">
+</p>
