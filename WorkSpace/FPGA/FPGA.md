@@ -14,7 +14,10 @@
 
 * This custom PHY design allows for fine-grained timing adjustments across all DDR3 interface phases. The implemented design achieved a 108 MHz data rate on the DDR3 interface, the low operating frequency also explain why we donot use IODELAY to implement it. However, further enhancement was limited because the in-house DDR Controller presented a timing bottleneck, prompting considerations for next-generation improvements.
 
-* `Less structure to explain how to implement this design.`
+<p align="center">
+<img src="fpga_serdes.png" alt="RESULT" width="350">
+</p>
+
 
 ##### MIG DDR4 PHY integration
 
