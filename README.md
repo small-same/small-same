@@ -9,7 +9,7 @@
 
 ## Self Introduction
 
-I have about **9 years of work experience in digital IC design**. My major responsibilities revolve around **SoC (System on Chip)**, including **IP design and integration** (DISPLAY – DDFCH, and TZMA), **IP verification** (verification plan and pattern writing), and **flow/utility development** (PTGreper and clock reset gen). Furthermore, regarding the front-end flow, I also have experience with **MBIST insertion** (Tessent), **Formal verification** (R2R, R2PRE, PRE2POST), and **timing closure**.
+**9 years of work experience in digital IC design**. My major responsibilities revolve around **SoC**, including **IP design and integration** (DISPLAY, TZMA), **IP verification** (verification plan and pattern writing), and **flow/utility development** (PTGreper and clock reset gen). Furthermore, regarding the front-end flow, I also have experience with **MBIST insertion** (Tessent), **Formal verification** (R2R, R2PRE, PRE2POST), and **timing closure**.
 
 ---
 
@@ -30,8 +30,8 @@ I have about **9 years of work experience in digital IC design**. My major respo
       * Designed Trust Zone Memory Access IP, integrating with crypto engine to secure DRAM access, ensuring robust system security.
       * Developed Register Control for Secure/Non-Secure Master with Trust-Zone Access, improving system partition security.
 * [DISPLAY Verification](https://github.com/small-same/small-same/blob/main/WorkSpace/VERI/VERI.md)
-    * Developed comprehensive verification test plans and patterns, No functional fault happens at first cut tapeout.
-    * Response FPGA emulation to validate display functionalities and accelerate pre-silicon debugging.
+    * Developed comprehensive verification test plans and patterns, No functional fault happens at first cut tape-out.
+    * Response for FPGA emulation to validate display functionalities and accelerate pre-silicon debugging.
 * [FPGA Implementation & Integration](https://github.com/small-same/small-same/blob/main/WorkSpace/FPGA/FPGA.md)
     * Implemention Flow on Xilinx V9 with VIVADO, meeting stringent performance targets.
     * Gained extensive integration experience with VIVADO IPs, including Serdes, MIG DDR4, and HDMI Tx PHY.
@@ -39,9 +39,9 @@ I have about **9 years of work experience in digital IC design**. My major respo
    * DISPLAY Functional Verficiation
    * HDMI PHY Setting for 4K
 * **Project Experience with Tapout IC**
-    * Contributed to the successful tape-out of SFH980 – a 4K setup-box IC with integrated In-house FBD (SMIC 40nm).
-    * SFH821 – a 2K setup-box IC with 10-bit Coder and DISPLAY (SMIC 40nm).
-    * SFH826 – a 2K setup-box IC, leading the effort to fix critical issues from SFH821 (SMIC 40nm).
+    * Contributed to the successful tape-out of SFH980 – a 4K set-top box IC with integrated In-house FBD (SMIC 40nm).
+    * SFH821 – a 2K set-top box IC with 10-bit Coder and DISPLAY (SMIC 40nm).
+    * SFH826 – a 2K set-top box IC, leading the effort to fix critical issues from SFH821 (SMIC 40nm).
 
 
 </details>
