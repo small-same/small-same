@@ -66,3 +66,82 @@ graph LR
         RST_MUX --> RST_OUT[clk_rstn_o]
     end
 ```
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'lineColor': '#000000'}}}%%
+graph LR
+    %% 設定走線為直角，模擬電路
+    linkStyle default routing:orthogonal
+
+    %% 定義樣式：藍色填充、白色文字 (模擬原圖的藍色方塊)
+    classDef logic fill:#003366,stroke:#333,stroke-width:1px,color:white;
+    classDef plain fill:#fff,stroke:#333,stroke-width:1px;
+    
+    subgraph "Clock Gen Module"
+        direction LR
+        %% Inputs
+        ScanClk[scan_clk_i]
+        FuncClk[FUNC_clk_i]
+        
+        %% Components
+        MuxIn{MUX}:::logic
+        Div[Clock Divider /4]:::logic
+        
+        %% MUX Block
+        Mux1{MUX}:::logic
+        Mux2{MUX}:::logic
+        Mux3{MUX}:::logic
+        Mux4{MUX}:::logic
+        
+        %% ICG Block
+        ICG1[ICG]:::logic
+        ICG2[ICG]:::logic
+        ICG3[ICG]:::logic
+        ICG4[ICG]:::logic
+        
+        %% Wiring
+        FuncClk --> MuxIn
+        ScanClk --> MuxIn
+        MuxIn --> Div
+        
+        %% Path 1: Normal
+        MuxIn --> Mux1
+        ScanClk --> Mux1
+        Mux1 --> ICG1 --> Out1[clk_o]
+        
+        %% Path 2: Inverted (用文字標示反向)
+        MuxIn -- inverter --> Mux2
+        ScanClk --> Mux2
+        Mux2 --> ICG2 --> Out2[clkn_o]
+        
+        %% Path 3: Divided
+        Div --> Mux3
+        ScanClk --> Mux3
+        Mux3 --> ICG3 --> Out3[div_clk_o]
+        
+        %% Path 4: Divided Inverted
+        Div -- inverter --> Mux4
+        ScanClk --> Mux4
+        Mux4 --> ICG4 --> Out4[div_clkn_o]
+    end
+
+    subgraph "Reset Gen Module"
+        direction LR
+        Pon[pon_rstn]
+        Hw[hw_rstn]
+        Sw[sw_rstn]
+        ScanRst[scan_rstn]
+        
+        AndGate((AND)):::plain
+        RstSync[rstn_sync]:::plain
+        MuxRst1{MUX}:::plain
+        MuxRst2{MUX}:::plain
+        
+        Pon & Hw & Sw --> AndGate
+        AndGate --> MuxRst1
+        MuxRst1 --> RstSync
+        RstSync --> MuxRst2
+        ScanRst --> MuxRst2
+        MuxRst2 --> RstOut[clk_rstn_o]
+    end
+```
