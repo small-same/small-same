@@ -9,7 +9,7 @@
 
 ## Self Introduction
 
-**9 years of work experience in digital IC design**. My major responsibilities revolve around **SoC**, including **IP design and integration** (DISPLAY, TZMA), **IP verification** (verification plan and pattern writing), and **flow/utility development** (PTGreper and clock reset gen). Furthermore, regarding the front-end flow, I also have experience with **MBIST insertion** (Tessent), **Formal verification** (R2R, R2PRE, PRE2POST), and **timing closure**.
+My major responsibilities revolve around **SoC**, including **IP design and integration** (DISPLAY, TZMA), **IP verification** (verification plan and pattern writing), and **flow/utility development** (PTGreper and clock reset gen). Furthermore, regarding the front-end flow, I also have experience with **MBIST insertion** (Tessent), **Formal verification** (R2R, R2PRE, PRE2POST), and **timing closure**.
 
 ---
 
